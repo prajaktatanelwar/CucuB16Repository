@@ -63,6 +63,7 @@ public class HooksStepDef {
 		String mobileActual =driver.findElement(By.xpath("//input[@name='reg_email__']")).getAttribute("value");
 		Assert.assertEquals(mobileActual, mobileActual);
 		Thread.sleep(1000);
+		
 	}
 	
 	

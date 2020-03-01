@@ -12,12 +12,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-
+//jar file of pico container into POM.xml
 
 	public class FacebookStepDefs1  {
 		WebDriver driver;
 		
-		public FacebookStepDefs1(SharedClass sharedObj) throws InterruptedException{
+		public FacebookStepDefs1(SharedClass sharedObj) throws InterruptedException{//parameterized constructor using object of shared class
 			driver = sharedObj.launchBrowser();
 		}
 		

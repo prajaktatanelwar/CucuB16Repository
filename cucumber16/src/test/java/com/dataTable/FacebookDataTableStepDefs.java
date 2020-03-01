@@ -24,8 +24,6 @@ public class FacebookDataTableStepDefs {
 		System.out.println("in setup");
 		System.setProperty("webdriver.chrome.driver","C:\\64\\SeleniumNew\\chromedriver_win32_B39\\chromedriver.exe");
 		driver = new ChromeDriver();
-//		System.setProperty("webdriver.gecko.driver", "D:\\Training\\TrainingContent\\SeleniumJars_Software\\geckodriver_64\\geckodriver.exe");
-//		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
 		System.out.println("opned browser");
 		Thread.sleep(5000);

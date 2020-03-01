@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 //@Cucumber.Options(format = {"pretty", "html:target/cucumber-htmlreport", "json-pretty:target/cucumber-report.json"} )
 
-@CucumberOptions(features = {"src/test/resources/com/tagsofcucumber/" },
+@CucumberOptions(features = {"src/test/resources/com/tagsofcucumber/TagsRegressionSmoke.feature:7" },
 					glue={"com/tagsofcucum/"},
 					//tags = {"@SmokeTest"},  // this will include the scenario with @SmokeTest, u can give any name like
 					//tags = {"~@SmokeTest"},  // this will exclude the scenario with @SmokeTest
@@ -22,6 +22,8 @@ import cucumber.api.junit.Cucumber;
 							"json:target/cucumber-report"+945+".json",
 							"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
 							}
+
+					//cucumber features /TagsRegressionSmoke.feature:7
 					)
 
 

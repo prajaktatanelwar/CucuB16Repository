@@ -28,7 +28,7 @@ public class MultipleStepDef {
 
 	@Then("^I verify textbox value$")
 	public void i_verify_textbox_value() throws Throwable {
-	   
+	   driver.close();
 	}
 
 
